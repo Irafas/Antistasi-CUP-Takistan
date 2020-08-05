@@ -81,7 +81,7 @@ else
 	{
 	if (_positionX distance getMarkerPos respawnTeamPlayer > 999) then
 		{
-		["DEF_HQ",[format ["Enemy knows our HQ coordinates. They have sent a SpecOp Squad in order to kill Maru. Intercept them and kill them. Or you may move our HQ 1Km away so they will loose track",name petros],format ["Defend %1",name petros],respawnTeamPlayer],_positionX,"SUCCEEDED"] call A3A_fnc_taskUpdate;
+		["DEF_HQ",[format ["Enemy knows our HQ coordinates. They have sent a SpecOp Squad in order to kill %1. Intercept them and kill them. Or you may move our HQ 1Km away so they will loose track",name petros],format ["Defend %1",name petros],respawnTeamPlayer],_positionX,"SUCCEEDED"] call A3A_fnc_taskUpdate;
 		["DEF_HQ1",[_sideX],[format ["We know %2 HQ coordinates. We have sent a SpecOp Squad in order to kill his leader %1. Help the SpecOp team",name petros,nameTeamPlayer],format ["Kill %1",name petros],respawnTeamPlayer],_positionX,"FAILED"] call A3A_fnc_taskUpdate;
 		}
 	else

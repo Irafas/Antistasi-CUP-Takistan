@@ -177,6 +177,8 @@ if (hasInterface) then {
 ////////////////////////////////////
 [2,"Setting map configuration",_fileName] call A3A_fnc_log;
 switch (toLower worldName) do {
+	// TODO Takistan, Add Takistan to this. I think this defines spawns for MG's, Tanks, Mortars etc in and around airports.
+	// Also this calls the roadsDB*.sqf file
 	case "tanoa":
 	{
 		roadsCentral = ["road","road_1","road_2","road_3","road_4"];

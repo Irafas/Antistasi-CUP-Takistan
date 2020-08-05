@@ -3,6 +3,8 @@
     When porting new mods/maps be sure to add them to their respective sections!
 */
 
+// TODO Takistan, will need to go over this whole file at some point
+
 //Map checker
 aridmaps = ["Altis","Kunduz","Malden","tem_anizay"];
 tropicalmaps = ["Tanoa"];

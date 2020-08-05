@@ -491,6 +491,13 @@ if (petros == leader group petros) then {
 };
 petros setIdentity "friendlyX";
 if (worldName == "Tanoa") then {petros setName "Maru"} else {petros setName "Petros"};
+/* TODO Takistan, Make sure this works
+switch (worldName) do {
+	case "Tanoa": 	 { petros setName "Maru";};
+	case "takistan": { petros setName "Jamsheed";};
+	default 		 { petros setName "Petros";};
+};
+*/
 
 disableSerialization;
 //1 cutRsc ["H8erHUD","PLAIN",0,false];

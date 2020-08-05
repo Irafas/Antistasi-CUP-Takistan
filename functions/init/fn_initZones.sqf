@@ -65,6 +65,7 @@ markersX apply {
 // setup hardcoded population counts for towns
 private _hardcodedPop = true;
 switch (toLower worldName) do {
+	// TODO Takistan, might need to add manual pops to towns
 	case "tanoa": {
 		{server setVariable [_x select 0,_x select 1]} forEach
 		[["Lami01",277],["Lifou01",350],["Lobaka01",64],["LaFoa01",38],["Savaka01",33],["Regina01",303],["Katkoula01",413],["Moddergat01",195],["Losi01",83],
@@ -227,6 +228,7 @@ private _replaceBadAntenna = {
 		};
 		private _antennaPos = getPos _antenna;
 		_antennaPos set [2, 0];
+		// TODO Takistan, Might need to define radio type, if takistan even has any radios
 		private _antennaClass = if (worldName == "chernarus_summer") then { "Land_Telek1" } else { "Land_TTowerBig_2_F" };
 		_antenna = createVehicle [_antennaClass, _antennaPos, [], 0, "NONE"];
 	};
@@ -234,6 +236,7 @@ private _replaceBadAntenna = {
 };
 
 switch (toLower worldName) do {
+	// TODO Takistan, Will need to go through and add pos of antennas and the pos of banks
 	case "tanoa": {
 		_posAntennas =
 		[[2682.94,2592.64,-0.000686646], [4701.6,3165.23,0.0633469], [2437.25,7224.06,0.0264893], [2563.15,9017.1,0.291538],

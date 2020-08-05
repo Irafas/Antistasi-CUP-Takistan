@@ -46,17 +46,17 @@ class CfgDebriefing
 	};
     class petrosDead
     {
-        title = "Petros is Dead";
-        subtitle = "Petros is Dead";
-        description = "Congratulations!: Petros is Dead. Now with rebels without a leader, you may think about joining them, and free Altis";
+        title = "Jamsheed is Dead";
+        subtitle = "Jamsheed is Dead";
+        description = "Congratulations!: Jamsheed is Dead. Now with rebels without a leader, you may think about joining them, and free Takistan";
         picture = "b_unknown";
         pictureColor[] = {0.5,0.0,0.0,1};
     };
     class destroyedSites
     {
-        title = "Altis is Destroyed";
-        subtitle = "Altis got Destroyed by OPFOR";
-        description = "One third of the population in Altis has been murdered by the OPFOR.<br/>Altis no longer exists, nobody wants to live here.";
+        title = "Takistan is Destroyed";
+        subtitle = "Takistan got Destroyed by OPFOR";
+        description = "One third of the population in Takistan has been murdered by the OPFOR.<br/>Takistan no longer exists, nobody wants to live here.";
         picture = "b_unknown";
         pictureColor[] = {0.5,0.0,0.0,1};
     };

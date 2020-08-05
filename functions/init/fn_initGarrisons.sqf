@@ -104,6 +104,7 @@ if (gameMode == 1) then
 {
 	_controlsNATO = controlsX;
 	switch (toLower worldName) do {
+		// TODO Takistan, Add takistan to this list once locations added to map
 		case "tanoa": {
 			_mrkCSAT = ["airport_1", "seaport_5", "outpost_10", "control_20"];
 			_controlsCSAT = ["control_20"];
