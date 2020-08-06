@@ -179,6 +179,11 @@ if (hasInterface) then {
 switch (toLower worldName) do {
 	// TODO Takistan, Add Takistan to this. I think this defines spawns for MG's, Tanks, Mortars etc in and around airports.
 	// Also this calls the roadsDB*.sqf file
+	case "takistan":
+	{
+		//Roads DB
+		call compile preprocessFileLineNumbers "Navigation\roadsDBTakistan.sqf";
+	};
 	case "tanoa":
 	{
 		roadsCentral = ["road","road_1","road_2","road_3","road_4"];
