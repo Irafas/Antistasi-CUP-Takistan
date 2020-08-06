@@ -490,14 +490,12 @@ if (petros == leader group petros) then {
 	[petros,"mission"] call A3A_fnc_flagaction;
 };
 petros setIdentity "friendlyX";
-if (worldName == "Tanoa") then {petros setName "Maru"} else {petros setName "Petros"};
-/* TODO Takistan, Make sure this works
+//if (worldName == "Tanoa") then {petros setName "Maru"} else {petros setName "Petros"};
 switch (worldName) do {
 	case "Tanoa": 	 { petros setName "Maru";};
-	case "takistan": { petros setName "Jamsheed";};
+	case "Takistan": { petros setName "Jamsheed";};
 	default 		 { petros setName "Petros";};
 };
-*/
 
 disableSerialization;
 //1 cutRsc ["H8erHUD","PLAIN",0,false];

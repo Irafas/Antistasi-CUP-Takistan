@@ -4,7 +4,7 @@
 nameTeamPlayer = if (worldName == "Tanoa") then {"SDK"} else {"FIA"};
 SDKFlag = "Flag_FIA_F";
 SDKFlagTexture = "\A3\Data_F\Flags\Flag_Altis_CO.paa";
-typePetros = "I_G_officer_F";
+typePetros = "CUP_I_TK_GUE_Soldier_AT";
 
 ////////////////////////////////////
 //             UNITS             ///
