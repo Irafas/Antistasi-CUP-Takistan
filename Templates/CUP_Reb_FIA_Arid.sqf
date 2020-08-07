@@ -96,8 +96,8 @@ breachingExplosivesAPC = [["DemoCharge_Remote_Mag", 1]];
 breachingExplosivesTank = [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_Mag", 2]];
 
 //Starting Unlocks
-initialRebelEquipment append ["CUP_arifle_AK74M","CUP_arifle_AK74M_top_rail", "CUP_srifle_Mosin_Nagant", "CUP_lmg_PKMN", "CUP_SKS_rail"]; // Guns
-initialRebelEquipment append ["CUP_30Rnd_545x39_AK_M","CUP_30RND_TE1_Red_Tracer_545x39_AK_M","CUP_5Rnd_762x54_Mosin_M", "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "CUP_10Rnd_762x39_SKS_M"]; // Ammmo
+initialRebelEquipment append ["CUP_arifle_AK74M","CUP_arifle_AK74M_top_rail", "CUP_srifle_Mosin_Nagant", "CUP_lmg_PKMN", "CUP_SKS_rail", "CUP_hgun_Makarov"]; // Guns
+initialRebelEquipment append ["CUP_30Rnd_545x39_AK_M","CUP_30RND_TE1_Red_Tracer_545x39_AK_M","CUP_5Rnd_762x54_Mosin_M", "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "CUP_10Rnd_762x39_SKS_M", "CUP_8Rnd_9x18_Makarov_M"]; // Ammmo
 
  // Backpacks
 initialRebelEquipment append ["B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_ocamo","B_FieldPack_oucamo","B_FieldPack_cbr","B_FieldPack_khk"]; // Vanilla
@@ -107,8 +107,8 @@ initialRebelEquipment append ["CUP_B_RPGPack_Khaki"];
 initialRebelEquipment append ["CUP_V_O_TK_Vest_1", "CUP_V_I_Guerilla_Jacket", "CUP_V_CZ_vest15","V_Chestrig_blk","V_Chestrig_rgr","V_Chestrig_khk","V_Chestrig_oli"]; 
 
 // Uniform
-//initialRebelEquipment append ["CUP_O_TKI_Khet_Partug_01","CUP_O_TKI_Khet_Partug_02","CUP_O_TKI_Khet_Partug_03","CUP_O_TKI_Khet_Partug_04","CUP_O_TKI_Khet_Partug_05","CUP_O_TKI_Khet_Partug_06",];
-//initialRebelEquipment append ["CUP_O_TKI_Khet_Jeans_01","CUP_O_TKI_Khet_Jeans_02","CUP_O_TKI_Khet_Jeans_03","CUP_O_TKI_Khet_Jeans_04",];
+initialRebelEquipment append ["CUP_O_TKI_Khet_Partug_01","CUP_O_TKI_Khet_Partug_02","CUP_O_TKI_Khet_Partug_03","CUP_O_TKI_Khet_Partug_04","CUP_O_TKI_Khet_Partug_05","CUP_O_TKI_Khet_Partug_06"];
+initialRebelEquipment append ["CUP_O_TKI_Khet_Jeans_01","CUP_O_TKI_Khet_Jeans_02","CUP_O_TKI_Khet_Jeans_03","CUP_O_TKI_Khet_Jeans_04"];
 
 initialRebelEquipment append ["Binocular","acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol"]; // etc...
 //TFAR Unlocks
