@@ -124,7 +124,7 @@ if(teamplayer != independent) then {//This section is for Altis Blufor ONLY!
         };
         case (worldName == "Takistan"): {
           call compile preProcessFileLineNumbers "Templates\CUP_Reb_FIA_Arid.sqf";
-          call compile preProcessFileLineNumbers "Templates\Vanilla_Occ_NATO_Altis.sqf";
+          call compile preProcessFileLineNumbers "Templates\CUP_Occ_US_Arid.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Inv_CSAT_Altis.sqf";
         };
         case (worldName in temperatemaps): {
