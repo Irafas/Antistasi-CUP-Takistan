@@ -3,11 +3,14 @@ params["_vehicle", "_caller", "_actionID"];
 if(!isPlayer _caller) exitWith {["Breach Vehicle", "Only players are currently able to breach vehicles!"] call A3A_fnc_customHint;};
 
 //Only engineers should be able to breach a vehicle
+// TODO Takistan, We want anyone to be able to breach
+/*
 private _isEngineer = _caller getUnitTrait "engineer";
 if(!_isEngineer) exitWith
 {
     ["Breach Vehicle", "You have to be an engineer to breach a vehicle!"] call A3A_fnc_customHint;;
 };
+*/
 
 if(!alive _vehicle) exitWith
 {

@@ -91,9 +91,9 @@ APERSMineMag = "APERSMine_Range_Mag";
 
 //Breaching explosives
 //Breaching APCs needs one demo charge
-breachingExplosivesAPC = [["DemoCharge_Remote_Mag", 1]];
+breachingExplosivesAPC = [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_Mag", 1], ["Drone_Range_Mag", 1], ["CUP_Mine_M", 1], ["CUP_IED_V4_M", 1], ["CUP_IED_V2_M", 1], ["ATMine_Range_Mag", 1], ["ClaymoreDirectionalMine_Remote_Mag", 1], ["APERSBoundingMine_Range_Mag", 1], ["SLAMDirectionalMine_Wire_Mag", 1], ["APERSTripMine_Wire_Mag", 1], ["CUP_PipeBomb_M", 1], ["IEDLandSmall_Remote_Mag", 1], ["CUP_IED_V3_M", 1], ["IEDUrbanSmall_Remote_Mag", 1], ["CUP_IED_V1_M", 1], ["CUP_TimeBomb_M", 1], ["CUP_MineE_M", 1], ["ACE_FlareTripMine_Mag", 1], ["APERSMine_Range_Mag", 1]];
 //Breaching tanks needs one satchel charge or two demo charges
-breachingExplosivesTank = [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_Mag", 2]];
+breachingExplosivesTank = [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_Mag", 1], ["Drone_Range_Mag", 1], ["CUP_Mine_M", 1], ["CUP_IED_V4_M", 1], ["CUP_IED_V2_M", 1], ["ATMine_Range_Mag", 1], ["ClaymoreDirectionalMine_Remote_Mag", 1], ["APERSBoundingMine_Range_Mag", 1], ["SLAMDirectionalMine_Wire_Mag", 1], ["APERSTripMine_Wire_Mag", 1], ["CUP_PipeBomb_M", 1], ["IEDLandSmall_Remote_Mag", 1], ["CUP_IED_V3_M", 1], ["IEDUrbanSmall_Remote_Mag", 1], ["CUP_IED_V1_M", 1], ["CUP_TimeBomb_M", 1], ["CUP_MineE_M", 1], ["ACE_FlareTripMine_Mag", 1], ["APERSMine_Range_Mag", 1]];
 
 //Starting Unlocks
 initialRebelEquipment append ["CUP_arifle_AK74M","CUP_arifle_AK74M_top_rail", "CUP_srifle_Mosin_Nagant", "CUP_lmg_PKMN", "CUP_SKS_rail", "CUP_hgun_Makarov"]; // Guns
