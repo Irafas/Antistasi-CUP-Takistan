@@ -19,7 +19,9 @@ if (getText (_configClass >> "picture") == "") exitWith {
 };
 
 //Remove vanilla items if no vanilla sides (IFA handled seperately)
-if (_itemIsVanilla && {has3CB || {activeAFRF && activeGREF && activeUSAF}}) then {
+// TODO Takistan, Make sure this works properly to remove vanilla gear
+// Also convert this to a proper hasCUP()
+if (_itemIsVanilla && {has3CB || {activeAFRF && activeGREF && activeUSAF} || toLower worldName == "takistan"}) then {
 	switch (_categories select 0) do {
 		case "Item": {
 			switch (_categories select 1) do {
