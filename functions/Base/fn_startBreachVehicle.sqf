@@ -97,16 +97,17 @@ if(_explosiveCount == 0) exitWith
     ["Breach Vehicle", "You don't have the right explosives, check the briefing notes to see what you need!"] call A3A_fnc_customHint;
 };
 
-private _time = 15 + (random 5);
+// TODO Takistan, Adjusted the _time and _damageDealt to be far smaller
+private _time = 5 + (random 5);
 private _damageDealt = 0;
 if(_isTank) then
 {
-    _time = 45 + (random 15);
-    _damageDealt = 0.25 + random 0.25;
+    _time = 5 + (random 5);
+    _damageDealt = 0.15 + random 0.15;
 }
 else
 {
-    _time = 25 + (random 10);
+    _time = 5 + (random 5);
     _damageDealt = 0.15 + random 0.15;
 };
 
