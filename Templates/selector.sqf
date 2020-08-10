@@ -116,29 +116,34 @@ if(teamplayer != independent) then {//This section is for Altis Blufor ONLY!
           call compile preProcessFileLineNumbers "Templates\Vanilla_Reb_FIA_Enoch.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Occ_NATO_Temp.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Inv_CSAT_Enoch.sqf";
+          call compile preProcessFileLineNumbers "Templates\Vanilla_Civ.sqf";
         };
         case (worldName == "Tanoa"): {
           call compile preProcessFileLineNumbers "Templates\Vanilla_Reb_SDK_Tanoa.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Occ_NATO_Tanoa.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Inv_CSAT_Tanoa.sqf";
+          call compile preProcessFileLineNumbers "Templates\Vanilla_Civ.sqf";
         };
         case (worldName == "Takistan"): {
           call compile preProcessFileLineNumbers "Templates\CUP_Reb_FIA_Arid.sqf";
           call compile preProcessFileLineNumbers "Templates\CUP_Occ_US_Arid.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Inv_CSAT_Altis.sqf";
+          call compile preProcessFileLineNumbers "Templates\CUP_Civ.sqf";
         };
         case (worldName in temperatemaps): {
           call compile preProcessFileLineNumbers "Templates\Vanilla_Reb_FIA_Altis.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Occ_NATO_Temp.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Inv_CSAT_Altis.sqf";
+          call compile preProcessFileLineNumbers "Templates\Vanilla_Civ.sqf";
         };
         default {
           call compile preProcessFileLineNumbers "Templates\Vanilla_Reb_FIA_Altis.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Occ_NATO_Altis.sqf";
           call compile preProcessFileLineNumbers "Templates\Vanilla_Inv_CSAT_Altis.sqf";
+          call compile preProcessFileLineNumbers "Templates\Vanilla_Civ.sqf";
         };
       };
-      call compile preProcessFileLineNumbers "Templates\Vanilla_Civ.sqf";
+      //call compile preProcessFileLineNumbers "Templates\Vanilla_Civ.sqf";
     };
   };
 };
