@@ -165,7 +165,7 @@ vehNATOAir = vehNATOTransportHelis + vehNATOAttackHelis + [vehNATOPlane,vehNATOP
 //Militia Vehicles
 if ((gameMode != 4) and (!hasFFAA)) then
 	{
-	vehFIAArmedCar = "CUP_B_HMMWV_SOV_USA";
+	vehFIAArmedCar = "CUP_B_HMMWV_SOV_M2_USA";
 	vehFIATruck = "CUP_B_MTVR_USA";
 	vehFIACar = "CUP_B_HMMWV_Unarmed_USA";
 	};
