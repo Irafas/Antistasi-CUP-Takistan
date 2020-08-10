@@ -244,3 +244,6 @@ else
 	[player] call A3A_fnc_dress;
 	if (hasACE) then {[] call A3A_fnc_ACEpvpReDress};
 	};
+	
+// TODO Takistan, check this works
+player setCustomAimCoef 0.2;
