@@ -9,8 +9,41 @@ Locked seats: ID numbers for seats to be disabled when cargo/hardpoint is presen
 
 *Positions only need up to 2 decimal places for accuracy, you can have more but they aren't neccessary for getting the box in place.
 */
-jnl_vehicleHardpoints = [
 
+// TODO Takistan, Oh god I got set this up as well don't I...
+
+
+jnl_vehicleHardpoints = [
+// ----------    CUP    ----------
+// US Army
+  ["\CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\CUP_MTVR.p3d", [ 
+    [1,		[0, -0.5, -0.451],		[2,3,4,5,6,7]],
+    [1,		[0, -2.3, -0.451],		[8,9,10,11]]
+  ]],
+
+  //Big Chinook TODO Takistan make sure this works
+  ["CUP\AirVehicles\CUP_AirVehicles_CH47\CUP_CH_47F.p3d", [
+    //type, location				locked seats
+    [1,		[0, 2, -2.8],		[0,23,22,1,2,3]], // Oh god why are the seat indexes so cursed
+    [1,		[0, 0.2, -2.8],		[4,5,6,21,19,18]],
+    [1,		[0, -1.6, -2.8],	[7,8,9,15,16,17]],
+    [1,		[0, -3.4, -2.8],	[10,11,12,20,13,14]]
+  ]],
+
+  ["\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\CUP_M1152.p3d", [
+    [1,		[0, -1.3, -1.7],		[]]
+  ]],
+
+  // FIA
+  ["\CUP\WheeledVehicles\CUP_WheeledVehicles_Hilux\hiluxV2_unarmed", [
+    [1,		[0, -1.5, -0.8],		[3,4]]
+  ]],
+
+  ["\CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\cup_v3s_open.p3d", [
+    [1,		[0, -0.1, -0.7],		[1,2,12,13,3,4]],
+    [1,		[0, -1.9, -0.7],		[5,6,7,8,9,10]],
+  ]],
+  
 // ---------- Vanilla ----------
 //4x4s
 //Offroad
