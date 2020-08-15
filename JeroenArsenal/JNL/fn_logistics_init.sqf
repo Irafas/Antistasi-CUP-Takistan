@@ -41,9 +41,9 @@ jnl_vehicleHardpoints = [
 
   ["\CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\cup_v3s_open.p3d", [
     [1,		[0, -0.1, -0.7],		[1,2,12,13,3,4]],
-    [1,		[0, -1.9, -0.7],		[5,6,7,8,9,10]],
+    [1,		[0, -1.9, -0.7],		[5,6,7,8,9,10]]
   ]],
-  
+
 // ---------- Vanilla ----------
 //4x4s
 //Offroad
