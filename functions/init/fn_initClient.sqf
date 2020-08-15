@@ -494,7 +494,7 @@ petros setIdentity "friendlyX";
 switch (worldName) do {
 	case "Tanoa": 	 { petros setName "Maru";};
 	case "Takistan": { petros setName "Jamsheed";};
-	default 		 { petros setName "Petros";};
+	default 		 { petros setName "Jamsheed";}; // TODO Takistan, See if this works
 };
 
 disableSerialization;

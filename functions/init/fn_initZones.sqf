@@ -393,7 +393,7 @@ diag_log format ["%1: [Antistasi] | DEBUG | initZones | Broken Radio Towers iden
 };
 if (count _posBank > 0) then {
 	for "_i" from 0 to (count _posBank - 1) do {
-		_bankProv = nearestObjects [_posBank select _i, ["Land_Offices_01_V1_F"], 30];
+		_bankProv = nearestObjects [_posBank select _i, ["Land_Offices_01_V1_F"], 30]; // TODO Takistan, replace this with the takistan bank building classname
 
 		if (count _bankProv > 0) then {
 			private _banco = _bankProv select 0;

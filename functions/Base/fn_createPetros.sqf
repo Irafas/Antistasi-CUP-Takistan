@@ -25,7 +25,7 @@ private _name = if (worldName == "Tanoa") then {"Maru"} else {"Petros"};
 switch (worldName) do {
 	case "Tanoa": 	 { _name = "Maru";};
 	case "Takistan": { _name = "Jamsheed";};
-	default 		 { _name = "Petros";};
+	default 		 { _name = "Jamsheed";}; // TODO Takistan, See if this works
 };
 
 [petros, "friendlyX"] remoteExec ["setIdentity", 0];
