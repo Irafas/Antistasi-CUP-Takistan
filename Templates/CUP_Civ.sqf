@@ -12,7 +12,6 @@ civVehCommonData = [
 
 civVehRepairData = [
 	"C_Offroad_01_repair_F", 0.3
-	,"C_Van_02_service_F", 0.3				// orange
 	,"C_Truck_02_box_F", 0.1				// repair zamak
 ];
 
@@ -27,10 +26,8 @@ civVehRefuelData = [
 
 civVehIndustrialData = [
 	"CUP_C_V3S_Open_TKC", 1.0
-	,"C_Van_01_box_F", 0.8
 	,"C_Truck_02_transport_F", 0.5
 	,"C_Truck_02_covered_F", 0.5
-	,"C_Tractor_01_F", 0.3					// Contact
 ];
 
 civBoatData = [
@@ -38,6 +35,4 @@ civBoatData = [
 	,"C_Boat_Civil_01_police_F", 0.1
 	,"C_Boat_Civil_01_F", 1.0
 	,"C_Rubberboat", 1.0					// rescue boat
-	,"C_Boat_Transport_02_F", 1.0			// RHIB
-	,"C_Scooter_Transport_01_F", 0.5		// jetski
 ];
