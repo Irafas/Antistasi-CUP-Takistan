@@ -301,7 +301,7 @@ switch (toLower worldName) do {
 	default {
 		antennas = nearestObjects [[worldSize /2, worldSize/2], ["Land_TTowerBig_1_F", "Land_TTowerBig_2_F", "Land_Communication_F", "Land_Vysilac_FM","Land_A_TVTower_base", "Land_Telek1"], worldSize];
 
-		banks = nearestObjects [[worldSize /2, worldSize/2], ["Land_Offices_01_V1_F"], worldSize];
+		banks = nearestObjects [[worldSize /2, worldSize/2], ["Land_Offices_01_V1_F", "Land_A_Mosque_small_1_EP1"], worldSize]; // TODO Takistan, Check if this picks up the banks right
 
 		private _replacedAntennas = [];
 		{ _replacedAntennas pushBack ([_x] call _replaceBadAntenna); } forEach antennas;
