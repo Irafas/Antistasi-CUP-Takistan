@@ -112,5 +112,5 @@ initialRebelEquipment append ["CUP_O_TKI_Khet_Jeans_01","CUP_O_TKI_Khet_Jeans_02
 
 initialRebelEquipment append ["Binocular","acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol"]; // etc...
 //TFAR Unlocks
-if (hasTFAR) then {initialRebelEquipment append ["tf_microdagr","tf_anprc154"]};
+if (hasTFAR) then {initialRebelEquipment append ["tf_microdagr","tf_anprc152"]};
 if (hasTFAR && startWithLongRangeRadio) then {initialRebelEquipment pushBack "tf_anprc155"};
