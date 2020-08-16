@@ -2,7 +2,7 @@
 civVehCommonData = [
 	"CUP_C_TT650_TK_CIV", 0.3
 	,"CUP_C_Golf4_random_Civ", 2.0
-	,"CUP_C_Golf4_kitty_Civ", 0.3
+	,"CUP_C_Golf4_kitty_Civ", 0.3			// Hello Kitty mobile
 	,"CUP_C_Datsun_4seat", 2.0
 	,"CUP_C_SUV_TK", 1.0
 	,"CUP_C_S1203_CIV", 1.0
