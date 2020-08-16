@@ -96,8 +96,8 @@ breachingExplosivesAPC = [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_M
 breachingExplosivesTank = [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_Mag", 1], ["Drone_Range_Mag", 1], ["CUP_Mine_M", 1], ["CUP_IED_V4_M", 1], ["CUP_IED_V2_M", 1], ["ATMine_Range_Mag", 1], ["ClaymoreDirectionalMine_Remote_Mag", 1], ["APERSBoundingMine_Range_Mag", 1], ["SLAMDirectionalMine_Wire_Mag", 1], ["APERSTripMine_Wire_Mag", 1], ["CUP_PipeBomb_M", 1], ["IEDLandSmall_Remote_Mag", 1], ["CUP_IED_V3_M", 1], ["IEDUrbanSmall_Remote_Mag", 1], ["CUP_IED_V1_M", 1], ["CUP_TimeBomb_M", 1], ["CUP_MineE_M", 1], ["ACE_FlareTripMine_Mag", 1], ["APERSMine_Range_Mag", 1]];
 
 //Starting Unlocks
-initialRebelEquipment append ["CUP_arifle_AK74M","CUP_arifle_AK74M_top_rail", "CUP_srifle_Mosin_Nagant", "CUP_lmg_PKMN", "CUP_SKS_rail", "CUP_hgun_Makarov"]; // Guns
-initialRebelEquipment append ["CUP_30Rnd_545x39_AK_M","CUP_30RND_TE1_Red_Tracer_545x39_AK_M","CUP_5Rnd_762x54_Mosin_M", "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "CUP_10Rnd_762x39_SKS_M", "CUP_8Rnd_9x18_Makarov_M"]; // Ammmo
+initialRebelEquipment append ["CUP_srifle_Mosin_Nagant", "CUP_SKS", "CUP_hgun_Makarov", "CUP_smg_vityaz"]; // Guns
+initialRebelEquipment append ["CUP_5Rnd_762x54_Mosin_M", "CUP_10Rnd_762x39_SKS_M", "CUP_8Rnd_9x18_Makarov_M", "CUP_30Rnd_9x19_Vityaz"]; // Ammmo
 
  // Backpacks
 initialRebelEquipment append ["B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_ocamo","B_FieldPack_oucamo","B_FieldPack_cbr","B_FieldPack_khk"]; // Vanilla
