@@ -183,6 +183,8 @@ switch (toLower worldName) do {
 	{
 		//Roads DB
 		call compile preprocessFileLineNumbers "Navigation\roadsDBTakistan.sqf";
+		roadsX setVariable ["airport", [[[5958.847, 11316.495, 0],278.355, "Tank"], [[8239.319,2068.484,13.056],347.649, "MG"], [[8272.298, 2085.321, 8.897],225.861, "AA"], [[8363.617,1889.942,0],1.137, "AA"] ]];
+		roadsX setVariable ["airport_1", [[[8058.386,1960.347,0],210.112, "Tank"], [[5994.867,11542.697,13.115],203.325, "AA"], [[5878.364, 11254.66, 9.179],105.680, "AA"], [[6081.296,11446.129,0],123.380, "MG"] ]];
 	};
 	case "tanoa":
 	{

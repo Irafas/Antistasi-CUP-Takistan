@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=522;
+	toggles=1538;
 	class ItemIDProvider
 	{
-		nextID=8654;
+		nextID=8667;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1625;
+		nextID=1898;
 	};
 	class Camera
 	{
-		pos[]={8889.3408,329.03815,5259.4131};
-		dir[]={0.14855652,-0.4602834,0.87526935};
-		up[]={0.077021539,0.88776392,0.45379743};
-		aside[]={0.98591119,-2.3730536e-007,-0.16733466};
+		pos[]={856.66058,577.9212,10462.605};
+		dir[]={-0.0094938688,-0.68073153,0.73247606};
+		up[]={-0.0088225454,0.73253196,0.68067658};
+		aside[]={0.99991959,-4.5473371e-008,0.012960385};
 	};
 };
 binarizationWanted=0;
@@ -93,13 +93,14 @@ addons[]=
 	"A3_Structures_F_Exp_Military_Flags",
 	"A3_Props_F_Enoch_Military_Camps",
 	"CUP_Buildings_Config",
-	"ace_logistics_wirecutter"
+	"ace_logistics_wirecutter",
+	"task_force_radio_items"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=43;
+		items=44;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -367,6 +368,13 @@ class AddonsMetaData
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
+		};
+		class Item43
+		{
+			className="task_force_radio_items";
+			name="task_force_radio_items";
+			author="[TF]Nkey";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
 	};
 };
@@ -3696,7 +3704,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=66;
+		items=71;
 		class Item0
 		{
 			dataType="Marker";
@@ -4272,13 +4280,13 @@ class Mission
 						class Item0
 						{
 							dataType="Marker";
-							position[]={8164.7778,530.31885,2009.1605};
+							position[]={8099.3232,530.31885,1938.4253};
 							name="airport";
 							markerType="RECTANGLE";
 							type="Empty";
 							colorName="ColorEAST";
-							a=140.57407;
-							b=117.87223;
+							a=232.85855;
+							b=145.64499;
 							angle=149.52855;
 							id=237;
 							atlOffset=234.27884;
@@ -4286,30 +4294,30 @@ class Mission
 						class Item1
 						{
 							dataType="Marker";
-							position[]={8062.2686,533.37695,1997.765};
+							position[]={8248.335,533.37695,2153.0947};
 							name="airp_vehicle_1";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
 							a=13.5;
 							b=6;
-							angle=56.227451;
+							angle=331.60562;
 							id=236;
 							atlOffset=237.33694;
 						};
 						class Item2
 						{
 							dataType="Marker";
-							position[]={8032.3052,535.57495,1981.2079};
+							position[]={7898.1191,535.57495,1861.5797};
 							name="airp_vehicle";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
 							a=17;
 							b=6;
-							angle=55.818729;
+							angle=59.477921;
 							id=235;
-							atlOffset=239.53494;
+							atlOffset=239.50284;
 						};
 						class Item3
 						{
@@ -4381,13 +4389,13 @@ class Mission
 						class Item0
 						{
 							dataType="Marker";
-							position[]={5941.7109,506.20096,11497.225};
+							position[]={5821.0659,506.20096,11394.271};
 							name="airport_1";
 							markerType="RECTANGLE";
 							type="Empty";
 							colorName="ColorEAST";
-							a=202.31201;
-							b=163.10098;
+							a=360.81464;
+							b=168.72461;
 							angle=317.49167;
 							id=238;
 							atlOffset=423.16095;
@@ -4507,7 +4515,7 @@ class Mission
 							colorName="ColorGreen";
 							a=11.080059;
 							b=26.497629;
-							angle=224.94954;
+							angle=224.94949;
 							id=1549;
 						};
 					};
@@ -4516,7 +4524,7 @@ class Mission
 				};
 			};
 			id=219;
-			atlOffset=-60.615448;
+			atlOffset=-60.549011;
 		};
 		class Item22
 		{
@@ -38757,7 +38765,7 @@ class Mission
 					position[]={5738.897,74.531235,10029.781};
 					name="road_3";
 					type="hd_arrow";
-					angle=224.7119;
+					angle=224.71185;
 					id=8592;
 				};
 				class Item6
@@ -39323,16 +39331,282 @@ class Mission
 			type="Land_Telek1";
 			atlOffset=-0.40235901;
 		};
+		class Item66
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6082.2979,81.918617,11445.99};
+				angles[]={0,5.2778034,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8661;
+			type="Land_BagFence_Round_F";
+		};
+		class Item67
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6080.647,81.953026,11445.23};
+				angles[]={0,2.8837836,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8662;
+			type="Land_BagFence_Corner_F";
+		};
+		class Item68
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6082.3413,81.963158,11447.525};
+				angles[]={0,6.204957,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8663;
+			type="Land_BagFence_Corner_F";
+		};
+		class Item69
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={818.974,551.20642,10514.599};
+			};
+			id=8664;
+			type="tfar_ModuleTaskForceRadioEnforceUsage";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_password";
+					expression="_this setVariable ['radio_channel_password',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="123tfar789";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="tfar_ModuleTaskForceRadioEnforceUsage_RiflemanRadio";
+					expression="_this setVariable ['RiflemanRadio',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_name";
+					expression="_this setVariable ['radio_channel_name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="InGame";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="tfar_ModuleTaskForceRadioEnforceUsage_same_sw_frequencies_for_side";
+					expression="_this setVariable ['same_sw_frequencies_for_side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="tfar_ModuleTaskForceRadioEnforceUsage_TeamLeaderRadio";
+					expression="_this setVariable ['TeamLeaderRadio',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="tfar_ModuleTaskForceRadioEnforceUsage_same_lr_frequencies_for_side";
+					expression="_this setVariable ['same_lr_frequencies_for_side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="tfar_ModuleTaskForceRadioEnforceUsage_terrain_interception_coefficient";
+					expression="_this setVariable ['terrain_interception_coefficient',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=7;
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item70
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={814.216,551.94067,10513.124};
+			};
+			id=8665;
+			type="tfar_ModuleTaskForceRadioFrequencies";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="tfar_ModuleTaskForceRadioFrequencies_LrFreq";
+					expression="_this setVariable ['LrFreq',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[""50.1"", ""50.2"", ""50.3""]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="tfar_ModuleTaskForceRadioFrequencies_Units";
+					expression="_this setVariable ['Units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="tfar_ModuleTaskForceRadioFrequencies_PrFreq";
+					expression="_this setVariable ['PrFreq',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[""31.1"", ""31.2"", ""31.3""]";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=39;
+			nextID=40;
 		};
 		class Links
 		{
-			items=39;
+			items=40;
 			class Item0
 			{
 				linkID=0;
@@ -39718,6 +39992,16 @@ class Mission
 				linkID=38;
 				item0=506;
 				item1=466;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item39
+			{
+				linkID=39;
+				item0=469;
+				item1=8665;
 				class CustomData
 				{
 					type="Sync";
