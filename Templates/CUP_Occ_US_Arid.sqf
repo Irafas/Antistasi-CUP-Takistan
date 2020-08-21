@@ -177,19 +177,19 @@ vehPoliceCar = "CUP_C_UAZ_Open_TK_CIV";
 //        STATIC WEAPONS         ///
 ////////////////////////////////////
 //Assembled Statics
-NATOMG = "I_G_HMG_02_high_F";
-staticATOccupants = "B_static_AT_F";
+NATOMG = "CUP_B_M2StaticMG_US";
+staticATOccupants = "CUP_B_TOW_TriPod_US";
 staticAAOccupants = "B_static_AA_F";
-NATOMortar = "B_Mortar_01_F";
+NATOMortar = "CUP_B_M252_US";
 
 //Static Weapon Bags
-MGStaticNATOB = "I_G_HMG_02_high_weapon_F";
-ATStaticNATOB = "B_AT_01_weapon_F";
+MGStaticNATOB = "CUP_B_M2_Gun_Bag";
+ATStaticNATOB = "CUP_B_Tow_Gun_Bag";
 AAStaticNATOB = "B_AA_01_weapon_F";
-MortStaticNATOB = "B_Mortar_01_weapon_F";
+MortStaticNATOB = "CUP_B_M252_Gun_Bag";
 //Short Support
-supportStaticNATOB = "I_G_HMG_02_support_F";
+supportStaticNATOB = "CUP_B_M2_MiniTripod_Bag";
 //Tall Support
-supportStaticNATOB2 = "I_G_HMG_02_support_high_F";
+supportStaticNATOB2 = "CUP_B_M2_Tripod_Bag";
 //Mortar Support
-supportStaticNATOB3 = "B_Mortar_01_support_F";
+supportStaticNATOB3 = "CUP_B_M252_Bipod_Bag";
