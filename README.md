@@ -1,6 +1,8 @@
 # Antistasi-CUP-Takistan
 A non-official modification of Antistasi 2.3 that adds CUP vehicles and units to a scenario in Takistan. This modification was made for personal use so includes several tweaks to both standard and antistasi gameplay.
 
+Currently only supports rebels VS Gov. Invader's haven't been touched so if they do appear they will be CSAT units. 
+
 The offical releases of Antistasi can be found here [https://github.com/official-antistasi-community/A3-Antistasi](https://github.com/official-antistasi-community/A3-Antistasi)
 
 
